@@ -1,9 +1,10 @@
 # Checkout Coverage Demo Lab
 
-This project is tiny demo shop that fails CI **on purpose**! Aaaand the pipeline blocks anything below
-**80% coverage**. Your mission, should you choose to accept it: write tests until the coverage gate goes **green**.
+This project is tiny demo shop that fails CI **on purpose**! The pipeline blocks anything below **80% coverage**. Your mission, should you choose to accept it: write tests until the coverage gate goes **green**.
 
-Please **FORK** this repo to begin your work.
+Please **FORK** this repo to begin your work. Enable Actions if prompted to get the CI pipeline working.
+
+If you get stuck, there is a solutions branch, but don't just copy and paste! Use it to give yourself a boost, but try to write the code yourself!
 
 ## Quick Start
 
@@ -42,6 +43,9 @@ teams run them nightly or on PRs to `main`, not every push.
 
 ## Pages
 
-To enable Pages on your fork go to: repo **Settings → Pages → Source: GitHub Actions**.
-Every push to `main` builds, tests, gates coverage, and deploys; pull
+To enable Pages on your fork go to: repo **Settings → Pages → Source: GitHub Actions**. That's it! You're set.
+
+Every push to `main` builds, tests, gates coverage, and deploys. Pull
 requests run the first three jobs.
+
+To see your deployed site (after you've passed the coverage gate) go to `[your-user-name].github.io/checkout-coverage-lab/`

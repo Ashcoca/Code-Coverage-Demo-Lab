@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Demo Shop — coverage lab</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Demo Shop</h1>
+      <p class="tagline">A tiny shop whose CI fails on purpose — until the tests cover it.</p>
+
+      <form id="order-form">
+        <label>Mug — $12.00
+          <input type="number" name="qty-mug" min="0" value="0" />
+        </label>
+        <label>Tee — $25.00
+          <input type="number" name="qty-tee" min="0" value="0" />
+        </label>
+        <label>Coupon
+          <input type="text" name="coupon" placeholder="SAVE10 or TAKE5" />
+        </label>
+        <button type="submit">Place order</button>
+      </form>
+
+      <pre id="receipt" aria-live="polite"></pre>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

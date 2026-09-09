@@ -11,7 +11,7 @@
   "description": "A tiny shop app + GitHub Actions pipeline for teaching code coverage. CI stays red until the suite covers 80% of checkout.js.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
